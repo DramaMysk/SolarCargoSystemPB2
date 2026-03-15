@@ -26,3 +26,15 @@ p {
     font-size: 20px;
     margin-bottom: 30px;
 }
+
+
+ul {
+    width: 222px;
+    padding: 22px;
+    background-color:#8f8fd8;
+    border-radius: 15px;
+}
+
+li {
+    margin-bottom: 11px;
+}
