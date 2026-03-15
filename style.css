@@ -1,5 +1,28 @@
+/* Izstatijumi priekš visas lapas. Atradu ka rasktit komentarus xD */
+
 body {
     font-family: Arial, sens-serif;
-    background-color: #5353b6;
+    background-color: #a1a1e9;
     color: black;
+}
+
+
+/* galvenie virsraksti */
+
+h1 {
+    color: rgb(12, 1, 1);
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: rgb(46, 11, 11);
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+p {
+    color: rgb(37, 31, 31);
+    font-size: 20px;
+    margin-bottom: 30px;
 }
