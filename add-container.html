@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="lv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Cargo System - pievienot konteineru</title>
+    <link rel="icon" type="image/png" href="img/logo.jpg">
+    <link rel="stylesheet" href="style.css?v=1.1">
+</head>
+
+<body>
+    <img src="img/system.png" alt="Solar Cargo logo">
+
+    <h1>Pievienot konteineri</h1>
+    <p>Lai pievienotu konteineri, aizpildi laukus zemāk.</p>
+
+    <form action="#" method="post" class="cargo-form">
+
+    <div class="form-group">
+        <label for="container-id">ID</label>
+        <input 
+            type="text" 
+            id="container-id" 
+            name="container_id"
+            placeholder="Piemēram: SC-3391" 
+            required
+        >
+    </div>
+
+    <div class="form-group">
+        <label for="mineral">Minerāls</label>
+        <input 
+            type="text" 
+            id="mineral" 
+            name="mineral"
+            placeholder="Piemēram: Helijs-3" 
+            required
+        >
+    </div>
+
+    <div class="form-group">
+        <label for="origin-base">Izcelšanās bāze</label>
+        <input 
+            type="text" 
+            id="origin-base" 
+            name="origin_base"
+            placeholder="Piemēram: Luna Base 22" 
+            required
+        >
+    </div>
+
+    <div class="form-group">
+        <label for="destination-base">Galamērķa bāze</label>
+        <input 
+            type="text" 
+            id="destination-base"
+            name="destination_base" 
+            placeholder="Piemēram: Earth Base Australia-4"
+            required
+        >
+    </div>
+
+    <div class="form-group">
+        <label for="status">Statuss</label>
+        <select id="status" name="status" required>
+            <option value="">-- Izvēlies statusu --</option>
+            <option value="cela">Ceļā</option>
+            <option value="noliktava">Noliktavā</option>
+            <option value="piegadats">Piegādāts</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="notes">Piezīmes</label>
+        <textarea 
+            id="notes" 
+            name="notes" 
+            rows="4"
+            placeholder="Papildu informācija par konteineru"
+        ></textarea>
+    </div>
+
+    <button type="submit">Saglabāt</button>
+
+</form>
+
+        <h2> Navigācija</h2>
+    
+    <ul>
+        <li><a href="index.html">Galvena lapa</a></li>
+        <li><a href="konteineri.html">Konteineri</a></li>
+        <li><a href="statistika.html">Statistika</a></li>
+    </ul>
+    
+    <h3><em>Lapa atrodas izstrādes statusā</em></h3>
+</body>
+</html>
